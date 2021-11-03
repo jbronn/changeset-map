@@ -2,7 +2,7 @@
   "name": "changeset-map",
   "version": "1.11.0",
   "description": "Provide visualization of changesets to OSMCha & to the OSM community",
-  "main": "dist/bundle.js",
+  "main": "lib/index.js",
   "scripts": {
     "precommit": "lint-staged",
     "build:website": "rollup -c ./rollup.website.config.js",
